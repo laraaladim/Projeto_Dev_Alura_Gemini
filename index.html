@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Define o conjunto de caracteres e a visualização responsiva para dispositivos móveis -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Inclui o arquivo de estilo externo -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Define o título da página que aparece na aba do navegador -->
+    <title>Imerção_dev_Projeto</title>
+</head>
+<body>
+   <!-- Cabeçalho da página -->
+   <header>
+    <h1>Começando a Programar: Um Guia Completo para Iniciantes </h1>
+   </header> 
+   
+    <!-- Citação sobre programação -->
+    <h2>"Programar não é só digitar códigos; é esculpir o futuro. É a arte de transformar ideias abstratas em realidades digitais, linha por linha. Uma jornada repleta de desafios, sim, mas que recompensa com a imensa satisfação de ver suas criações tomando vida"</h2>
+    
+    <!-- Seção sobre os primeiros passos para começar a programar -->
+    <h4>Primeiros Passos</h4>
+    <ol class="item-resultado">
+        <li>Escolha uma Linguagem de Programação</li>
+        <li>Entenda os Conceitos Básicos</li>
+        <li>Utilize Recursos Online</li>
+        <li>Seja Paciente e Persistente</li>
+    </ol>
+
+    <!-- Seção para entrada de dados sobre cursos -->
+    <section>
+        <input type="text" placeholder="Curso para iniciantes, segue cursos." id="input-curso">
+    </section>
+
+    <!-- Seção onde os resultados da pesquisa serão exibidos -->
+    <section id="resultados-pesquisa" style="display: none;">
+        <!-- Resultados serão inseridos aqui dinamicamente -->
+    </section>
+
+    <!-- Seção com links para cursos recomendados -->
+    <section id="resultados-pesquisa">
+        
+        <div class="Curso">
+            <h2><a href="https://www.alura.com.br/formacao-programacao" target="_blank">Introdução à Programação</a></h2>
+            <p class="descricao-meta">Aprenda os conceitos básicos da programação, como variáveis, tipos de dados, estruturas de controle e algoritmos. Ideal para quem está começando.</p>
+            <a href="https://www.alura.com.br/formacoes" target="_blank">Mais informações</a>
+        </div>
+
+        <div class="Curso">
+            <h2><a href="https://www.alura.com.br/formacao-java" target="_blank">Lógica de Programação</a></h2>
+            <p class="descricao-meta">Desenvolva a sua lógica de programação e aprenda a pensar como um programador. Domine algoritmos e estruturas de dados.</p>
+            <a href="https://www.alura.com.br/formacoes" target="_blank">Mais informações</a>
+        </div>
+
+        <div class="Curso">
+            <h2><a href="https://www.alura.com.br/formacao-arquitetura-informacao" target="_blank">Algoritmos e Estrutura de Dados</a></h2>
+            <p class="descricao-meta">Aprenda a resolver problemas de forma eficiente utilizando algoritmos e estruturas de dados. Fundamentos essenciais para qualquer programador.</p>
+            <a href="https://www.alura.com.br/formacoes" target="_blank">Mais informações</a>
+        </div>
+    </section>
+    
+    <!-- Inclui os arquivos de script JavaScript -->
+    <script src="dados.js"> </script>
+    <script src="app.js"></script>
+</body>
+</html>
